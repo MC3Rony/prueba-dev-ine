@@ -8,9 +8,14 @@
     "dateLabel": "Hoy",
     "achievements": [
       {
-        "name": "",
-        "difficulty": "",
-        "potential": ""
+        "name": "Estandarización de Interfaz",
+        "difficulty": "Media",
+        "potential": "Alta consistencia visual"
+      },
+      {
+        "name": "Cumplimiento WCAG 2.1",
+        "difficulty": "Alta",
+        "potential": "Inclusión y alcance de usuario"
       }
     ]
   },
@@ -23,9 +28,14 @@
     "dateLabel": "Ayer",
     "achievements": [
       {
-        "name": "",
-        "difficulty": "",
-        "potential": ""
+        "name": "Arquitectura de Software",
+        "difficulty": "Media",
+        "potential": "Reducción de deuda técnica"
+      },
+      {
+        "name": "Optimización de Consultas",
+        "difficulty": "Alta",
+        "potential": "Mejora en rendimiento de búsqueda"
       }
     ]
   },
@@ -38,9 +48,14 @@
     "dateLabel": "Esta semana",
     "achievements": [
       {
-        "name": "",
-        "difficulty": "",
-        "potential": ""
+        "name": "Continuidad Operativa",
+        "difficulty": "Baja",
+        "potential": "Estabilidad del sistema"
+      },
+      {
+        "name": "Actualización de Parches de Seguridad",
+        "difficulty": "Media",
+        "potential": "Mitigación de vulnerabilidades"
       }
     ]
   },
@@ -53,9 +68,14 @@
     "dateLabel": "Hoy",
     "achievements": [
       {
-        "name": "",
-        "difficulty": "",
-        "potential": ""
+        "name": "Transferencia de Conocimiento",
+        "difficulty": "Baja",
+        "potential": "Autonomía del equipo"
+      },
+      {
+        "name": "Eficiencia en Procesos Internos",
+        "difficulty": "Baja",
+        "potential": "Reducción de errores operativos"
       }
     ]
   }
