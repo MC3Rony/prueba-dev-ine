@@ -44,14 +44,14 @@ export const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
     } 
     return () => {
       document.removeEventListener("keydown", handleEscape);
-      document.body.style.overflow = ""; // Restaura el scroll del fondo
+      document.body.style.overflow = 'unset'; // Restaura el scroll del fondo
     };
   }, [isOpen, onClose]);
 
   if (!isOpen) return null;
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50"
+      className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
       onClick={onClose}
     >
       {/* Contenedor del modal */}
