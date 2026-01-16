@@ -58,7 +58,7 @@ export const Modal = ({ isOpen, onClose, title, children }: ModalProps) => {
       {/* Evita que el clic se propague al contenedor padre */}
       <div
         className="bg-white rounded-lg shadow-2xl max-w-2xl max-h-[90vh] overflow-hidden"
-        onClick={(e) => e.stopPropagation}
+        onClick={(e) => e.stopPropagation()}
       >
         {/* Header del modal */}
         <div className="flex items-center justify-between p-6 border-b boder-gray-200">
