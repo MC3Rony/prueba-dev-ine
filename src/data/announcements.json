@@ -73,5 +73,34 @@
     "dateLabel": "Hoy",
     "achievements": [
     ]
+  },
+  {
+    "id": "a-005",
+    "title": "Anuncio general: cambios en políticas de seguridad",
+    "summary": "Se implementarán nuevos protocolos de seguridad para el acceso a los sistemas.",
+    "category": "anuncio",
+    "dateLabel": "Ayer",
+    "achievements": [
+      {
+        "name": "Continuidad Operativa",
+        "difficulty": "Baja",
+        "potential": "Alto"
+      },
+      {
+        "name": "Actualización de Parches de Seguridad",
+        "difficulty": "Media",
+        "potential": "Alto"
+      },
+      {
+        "name": "Cambios en sistemas de seguridad",
+        "difficulty": "Baja",
+        "potential": "Alto"
+      },
+      {
+        "name": "Capacitación del personal",
+        "difficulty": "Media",
+        "potential": "Medio"
+      }
+    ]
   }
 ]
