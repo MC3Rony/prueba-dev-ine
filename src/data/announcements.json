@@ -5,7 +5,14 @@
     "summary": "Se habilitan mejoras visuales y componentes reutilizables para el frontend.",
     "category": "comunicados",
     "tags": ["UI", "React", "Accesibilidad"],
-    "dateLabel": "Hoy"
+    "dateLabel": "Hoy",
+    "achievements": [
+      {
+        "name": "",
+        "difficulty": "",
+        "potential": ""
+      }
+    ]
   },
   {
     "id": "a-002",
@@ -13,7 +20,14 @@
     "summary": "Crear componentes UI (Button, Input, Card) y hooks para filtros y búsqueda.",
     "category": "convocatorias",
     "tags": ["TypeScript", "Hooks", "Reutilización"],
-    "dateLabel": "Ayer"
+    "dateLabel": "Ayer",
+    "achievements": [
+      {
+        "name": "",
+        "difficulty": "",
+        "potential": ""
+      }
+    ]
   },
   {
     "id": "a-003",
@@ -21,7 +35,14 @@
     "summary": "Se realizará mantenimiento programado. El servicio podría estar intermitente.",
     "category": "general",
     "tags": ["Infra", "Aviso"],
-    "dateLabel": "Esta semana"
+    "dateLabel": "Esta semana",
+    "achievements": [
+      {
+        "name": "",
+        "difficulty": "",
+        "potential": ""
+      }
+    ]
   },
   {
     "id": "a-004",
@@ -29,6 +50,13 @@
     "summary": "Se realizará una capacitación interna referente a los sistemas institucionales.",
     "category": "general",
     "tags": ["Infra", "Aviso"],
-    "dateLabel": "Hoy"
+    "dateLabel": "Hoy",
+    "achievements": [
+      {
+        "name": "",
+        "difficulty": "",
+        "potential": ""
+      }
+    ]
   }
 ]
