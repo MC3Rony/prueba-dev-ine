@@ -14,11 +14,11 @@ interface AchievementsListProps {
  * @returns Clases de tailwind correspondientes a la dificultad.
  */
 
-const getDifficultyColor = (difficulty: Achievement["difficulty"]) => {
+const getDifficultyColor = (difficulty: Achievement['difficulty']) => {
   const colors = {
-    Baja: "bg-green-100 text-green-800",
-    Media: "bg-yellow-100 text-yellow-800",
-    Alta: "bg-red-100 text-red-800",
+    'Baja': "bg-green-200 text-green-800 border-green-200",
+    'Media': "bg-yellow-100 text-yellow-800 border-yellow-200",
+    'Alta': "bg-red-100 text-red-800 border-red-200",
   };
   return colors[difficulty];
 };
@@ -31,11 +31,11 @@ const getDifficultyColor = (difficulty: Achievement["difficulty"]) => {
  * @returns Clases de tailwind correspondientes al potencial.
  **/
 
-const getPotentialColor = (potential: Achievement["potential"]) => {
+const getPotentialColor = (potential: Achievement['potential']) => {
   const colors = {
-    Bajo: "bg-blue-100 text-blue-800",
-    Medio: "bg-purple-100 text-purple-800",
-    Alto: "bg-pink-100 text-pink-800",
+    'Bajo': "bg-blue-100 text-blue-800 border-blue-200",
+    'Medio': "bg-purple-100 text-purple-800 border-purple-200",
+    'Alto': "bg-pink-100 text-pink-800 border-pink-200",
   };
   return colors[potential];
 };
@@ -68,38 +68,30 @@ export const AchievementsList = ({ achievements }: AchievementsListProps) => {
         Logros Institucionales
       </h3>
       <div className="grid gap-4">
-        {/* Grid responsivo para los logros */}
-        {/* El indice se usa como key porque no tenemos un ID unico */}
-        {achievements.map((achievement, index) => (
-          <div
-            key={index}
-            className="p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
-          >
-            {/* Nombre del achievement */}
-            <h4 className="text-md font-medium text-gray-800 mb-2">
-              {achievement.name}
-            </h4>
-            {/* Contenedor de badges */}
-            <div className="flex flex-wrap gap-2">
-              {/* Badge de dificultad */}
-              <span
-                className={`px-3 py-1 rounded-full text-sm font-medium border ${getDifficultyColor(
-                  achievement.difficulty
-                )}`}
-              >
+      {/* Grid responsivo para los logros */}
+      {/* El indice se usa como key porque no tenemos un ID unico */}
+      {achievements.map((achievement, index) => (
+        <div
+          key={index}
+          className="p-4 border border-gray-200 rounded-lg shadow-sm hover:shadow-md transition-shadow duration-200"
+        >
+          {/* Nombre del achievement */}
+          <h4 className="text-md font-medium text-gray-800 mb-2">
+            {achievement.name}
+          </h4>
+          {/* Contenedor de badges */}
+          <div className="flex flex-wrap gap-2">
+            {/* Badge de dificultad */}
+            <span className={`px-3 py-1 rounded-full text-sm font-medium border ${getDifficultyColor(achievement.difficulty)}`}>
                 Dificultad: {achievement.difficulty}
-              </span>
-              {/* Badge de potencial */}
-              <span
-                className={`px-3 py-1 rounded-full text-sm font-medium border ${getPotentialColor(
-                  achievement.potential
-                )}`}
-              >
+            </span>
+            {/* Badge de potencial */}
+            <span className={`px-3 py-1 rounded-full text-sm font-medium border ${getPotentialColor(achievement.potential)}`}>
                 Potencial: {achievement.potential}
-              </span>
-            </div>
+            </span>
           </div>
-        ))}
+        </div>
+      ))}
       </div>
     </div>
   );

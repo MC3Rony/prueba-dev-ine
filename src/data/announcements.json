@@ -10,12 +10,12 @@
       {
         "name": "Estandarización de Interfaz",
         "difficulty": "Media",
-        "potential": "Alta consistencia visual"
+        "potential": "Bajo"
       },
       {
         "name": "Cumplimiento WCAG 2.1",
         "difficulty": "Alta",
-        "potential": "Inclusión y alcance de usuario"
+        "potential": "Medio"
       }
     ]
   },
@@ -30,12 +30,17 @@
       {
         "name": "Arquitectura de Software",
         "difficulty": "Media",
-        "potential": "Reducción de deuda técnica"
+        "potential": "Bajo"
       },
       {
         "name": "Optimización de Consultas",
         "difficulty": "Alta",
-        "potential": "Mejora en rendimiento de búsqueda"
+        "potential": "Medio"
+      },
+       {
+        "name": "Mejora de compoenentes UI",
+        "difficulty": "Baja",
+        "potential": "Alto"
       }
     ]
   },
@@ -50,12 +55,12 @@
       {
         "name": "Continuidad Operativa",
         "difficulty": "Baja",
-        "potential": "Estabilidad del sistema"
+        "potential": "Alto"
       },
       {
         "name": "Actualización de Parches de Seguridad",
         "difficulty": "Media",
-        "potential": "Mitigación de vulnerabilidades"
+        "potential": "Alto"
       }
     ]
   },
@@ -67,16 +72,6 @@
     "tags": ["Infra", "Aviso"],
     "dateLabel": "Hoy",
     "achievements": [
-      {
-        "name": "Transferencia de Conocimiento",
-        "difficulty": "Baja",
-        "potential": "Autonomía del equipo"
-      },
-      {
-        "name": "Eficiencia en Procesos Internos",
-        "difficulty": "Baja",
-        "potential": "Reducción de errores operativos"
-      }
     ]
   }
 ]
