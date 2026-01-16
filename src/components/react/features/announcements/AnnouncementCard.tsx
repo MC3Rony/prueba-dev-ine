@@ -28,7 +28,7 @@ function categoryConfig(category: Announcement["category"]) {
     case "comunicados":
       return { label: "Comunicado", variant: "warning" as const };
     default:
-      return { label: "Anuncio", variant: "info" as const };
+      return { label: "Anuncio", variant: "danger" as const };
   }
 }
 

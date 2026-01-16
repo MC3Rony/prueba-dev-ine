@@ -1,7 +1,7 @@
 /**
  * Categorías disponibles para los anuncios.
  */
-export type Category = "all" | "general" | "convocatorias" | "comunicados";
+export type Category = "all" | "general" | "convocatorias" | "comunicados" | "anuncio";
 
 /**
  * Interfaz que presenta un logro o achievement instucional.

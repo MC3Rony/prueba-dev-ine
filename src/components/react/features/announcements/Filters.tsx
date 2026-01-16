@@ -9,6 +9,7 @@ const OPTIONS: Array<{ label: string; value: Category }> = [
   { label: "General", value: "general" },
   { label: "Convocatorias", value: "convocatorias" },
   { label: "Comunicados", value: "comunicados" },
+  { label: "Anuncios", value: "anuncio" }
 ];
 
 /**
